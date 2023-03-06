@@ -189,8 +189,8 @@ int Mettre2ou4Aleatoire (int matrice[4][4]) {
 }
 
 /**
-     * Permet de comparer deux matrices afin de vérifier si tout n égal au tour n-1
-     * @param valeur les matrices que l'on veut comparer
+     * Permet de comparer deux matrices afin de vérifier si tour n égal au tour n-1
+     * @param valeur des matrices que l'on veut comparer
      * @return 1 si les matrices sont différentes, 0 sinon
 */
 int compareMatrice (int matrice1[4][4], int matrice2[4][4]){
@@ -206,7 +206,7 @@ int compareMatrice (int matrice1[4][4], int matrice2[4][4]){
 
 /**
      * Permet le déplacement des nombres de la matrice vers la gauche en ne faisant que 1 addition, celle la plus à gauche (règle du jeu)
-     * @param valeur la matrice pour laquelle on souhaite aller à gauche, colonnes, lignes, tableau compteur pour savoir si une addition a déjà été réalisé
+     * @param valeur de la matrice pour laquelle on souhaite aller à gauche, colonnes, lignes, tableau compteur pour savoir si une addition a déjà été réalisé
      * @return aucun
 */
 void AllerGauche (int matrice[4][4], int j, int i, int compteur[4]) {
